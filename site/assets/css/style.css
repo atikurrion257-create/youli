@@ -127,6 +127,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(38px,4.6vw,62px);lin
 .mega-panel,.drop-panel{position:absolute;top:100%;left:0;right:0;background:var(--ivory);border-bottom:1px solid var(--hairline);box-shadow:var(--shadow-2);opacity:0;visibility:hidden;transform:translateY(8px);transition:.22s var(--ease);z-index:50}
 .nav-item.mega .mega-panel{left:0;right:0}
 .nav-item:hover>.mega-panel,.nav-item:focus-within>.mega-panel,.nav-item.open>.mega-panel{opacity:1;visibility:visible;transform:translateY(0)}
+.nav-item:hover>.drop-panel,.nav-item:focus-within>.drop-panel,.nav-item.open>.drop-panel{opacity:1;visibility:visible;transform:translateY(0)}
 .mega-panel .container{padding-top:34px;padding-bottom:40px}
 .mega-group{flex:1}
 .mega-panel .container{display:grid;grid-template-columns:repeat(6,1fr);gap:26px}

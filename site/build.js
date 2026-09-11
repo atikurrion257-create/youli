@@ -76,7 +76,7 @@ function navHTML(activePath) {
   return SITE.nav.map((n, ni) => {
     const open = n.mega ? 'mega' : n.items ? 'has-drop' : '';
     const active = activePath === n.href ? ' is-active' : '';
-    const alignR = n.items && ni >= SITE.nav.length - 2 ? ' align-r' : '';
+    const alignR = n.items && ni >= SITE.nav.length - 3 ? ' align-r' : '';
     if (n.mega) {
       return `<div class="nav-item ${open}${active}">
         <button class="nav-btn" aria-expanded="false" aria-haspopup="true">${esc(n.label)}<span class="chev" aria-hidden="true"></span></button>

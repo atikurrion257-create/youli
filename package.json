@@ -1,0 +1,14 @@
+{
+  "name": "youli-china-world-bangladesh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "YOU LI CHINA WORLD BANGLADESH — evidence-led B2B fabric sourcing website (90-page static build, zero runtime dependencies).",
+  "scripts": {
+    "build": "node site/build.js",
+    "serve": "node site/serve.js",
+    "dev": "node site/build.js && node site/serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
